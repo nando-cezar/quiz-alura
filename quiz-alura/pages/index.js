@@ -47,12 +47,12 @@ export default function Home() {
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo uma submissão por meio do react');
+              // console.log('Fazendo uma submissão por meio do react');
             }}
             >
               <input
                 onChange={function (infosDoEvento) {
-                  console.log(infosDoEvento.target.value);
+                  // console.log(infosDoEvento.target.value);
                   // State
                   // name = infosDoEvento.target.value;
                   setName(infosDoEvento.target.value);

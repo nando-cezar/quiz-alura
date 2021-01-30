@@ -1,7 +1,7 @@
 # QUIZ ALURA
 
 <p align="center">
-  <img src="https://github.com/alura-challenges/aluraquiz-base/blob/main/_docs/aluraquiz-base.png">
+  <img src="https://github.com/nando-cezar/repository-img/blob/master/maths%20hd%20wallpapers%20image.jpg">
 </p>
 
 > Status: Under development :warning:

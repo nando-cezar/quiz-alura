@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-// eslint-disable-next-line import/no-unresolved
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
@@ -26,8 +25,8 @@ const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
+  margin: auto 65%;
+  @media screen and (max-width: 700px) {
     margin: auto;
     padding: 15px;
   }
@@ -65,13 +64,13 @@ export default function Home() {
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo uma submissão por meio do react');
+              /* console.log('Fazendo uma submissão por meio do react'); */
             }}
             >
               <Input
                 name="nomeDoUsuario"
                 onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
-                placeholder="Diz ai seu nome"
+                placeholder="Informe do jogador"
                 value={name}
               />
               <Button type="submit" disabled={name.length === 0}>

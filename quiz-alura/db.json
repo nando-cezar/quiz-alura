@@ -1,45 +1,56 @@
 {
-  "bg": "https://www.hitalent.co/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmJDQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1452099b706ad7d079f7a3a4dd5d702ebeeae45f/HiTalent.png",
-  "title": "Quiz JavaScript #AluraQuiz",
-  "description": "Um quiz rápido sobre o mundo do JavaScript",
+  "bg": "https://noic.com.br/wp-content/uploads/2018/09/wp2597357-math-wallpaper.jpg",
+  "title": "MATH",
+  "description": "Desafios de matemática!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
-      "title": "Qual a diferença entre = , == e === ?",
-      "description": "Pergunta fácil em!",
-      "answer": 1,
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Quantos zeros tem o número UM BILHÃO?",
+      "description": "Pergunta fácil!!!",
+      "answer": 3,
       "alternatives": [
-        "São a mesma coisa",
-        "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável."
+        "SEIS",
+        "SETE",
+        "OITO",
+        "NOVE",
+        "DEZ"
       ]
     },
     {
       "image": "https://media.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif",
-      "title": "Que tipos de dados são suportados em JavaScript?",
+      "title": "O fatorial de um número é...",
       "description": "E agora? Você sabe?",
-      "answer": 0,
+      "answer": 2,
       "alternatives": [
-        "Number, String, Undefined, Null e Bool.",
-        "Int, String, Undefined, Null e Bool."
+        "a quantidade de zeros que ele possui",
+        "a divisão deste núero por ele mesmo",
+        "o produto deste número por todos inteiros anteriores a ele, até chagar ao 1",
+        "a divisão do número pelo seu quadrado",
+        "a multiplicação deste número por ele mesmo"
       ]
     },
     {
       "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a diferença de window e global?",
-      "answer": 1,
+      "title": "Qual das figuras abaixo é a base de um cone?",
+      "answer": 2,
       "alternatives": [
-        "São a mesma coisa",
-        "window é o escopo global no browser, e global no node"
+        "quadrado",
+        "retângulo",
+        "círculo",
+        "elipse",
+        "triângulo"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a forma antiga de trabalhar com AJAX na Web?",
+      "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
+      "title": "O que é um algoritmo?",
       "answer": 1,
       "alternatives": [
-        "JSONHttpRequest",
-        "XMLHttpRequest",
-        "fetch"
+        "é o mesmo que algarismo",
+        "conjunto de regras necessárias à resolução de um problema ou cálculo",
+        "um conjunto numérico",
+        "um conjunto de caracteres acentuados",
+        "uma operação entre dois números reais"
       ]
     }
   ],
